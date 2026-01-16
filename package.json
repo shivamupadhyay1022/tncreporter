@@ -1,0 +1,24 @@
+{
+  "name": "consentlens-ai-service",
+  "version": "1.0.0",
+  "description": "AI-powered contract intelligence backend service for ConsentLens browser extension",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "node backend/test/test.js"
+  },
+  "keywords": ["consent", "privacy", "terms-of-service", "ai", "nlp", "browser-extension"],
+  "author": "ConsentLens Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
